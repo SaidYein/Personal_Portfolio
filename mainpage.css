@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #414535 ;
+  color: white;
+}
+
+a {
+  color: #FFF;
+}
+
+nav {
+  background-color: #618985 ;
+  height: 71px;
+  position:relative;
+}
+
+ul {
+  position: absolute;
+  right: 0;
+}
+
+nav li {
+  display:inline-block;
+}
+
+nav a {
+  padding: 24px;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:hover {
+  background-color: #7CA29E;
+  color: #414535;
+}
