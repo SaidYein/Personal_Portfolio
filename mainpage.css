@@ -1,4 +1,5 @@
 *{
+  margin:0;
   box-sizing: border-box;
 }
 
@@ -13,27 +14,29 @@ a {
 /*-----Navigation Bar-------*/
 nav {
   background-color: #618985 ;
-  height: 71px;
-  position:relative;
+  width: auto;
+  height: 70 px;
+  display:flex;
+  justify-content: flex-end;
 }
-
-ul {
-  position: absolute;
-  right: 0;
+nav ul{
+  height: 100%;
+  padding:0;
 }
-
 nav li {
   display:inline-block;
+  background-color: cornflowerblue;
+  text-align: center;
+  margin:0;
 }
-
-nav a {
-  padding: 24px;
+header a {
   display: block;
   text-decoration: none;
-  font-size: 20px;
+  width: 100px;
+  padding: 10px;
 }
 
-nav a:hover {
+/*nav a:hover {
   background-color: #7CA29E;
   color: #414535;
   width: 100%;
@@ -64,7 +67,7 @@ nav a:hover {
   padding:48px;
   text-align:center;
 }
-section h2 {
+#projects h2 {
   font-size: 40px;
   color: #8C271E;
 }
@@ -81,10 +84,11 @@ section h2 {
   display:block;
 }
 .project-title{
-  
+  margin-top:20px;
+  margin-bottom:20px;
 }
 /* ---------------- */
-
+/*-----button---------------*/
 #button {
   display: inline-block;
   padding: 20px;
@@ -96,4 +100,44 @@ section h2 {
   background-color: #CA1916;
   transition:0.6s;
 }
+/*----------------------*/
+.contact_title {
+  text-align:center;
+}
+.contact_title h2 {
+  font-size: 4rem;
+  font-weight:500;
+  font-family: 'Raleway', sans-serif;
+}
+.contact_title p{
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: italic;
+} 
 
+#contact {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+#list {
+  margin-top:60px;
+  text-align: center;
+}
+#list li {
+  display:inline-block;
+  margin-left:40px ;
+  margin-bottom: 40px;
+  font-size: 1.75rem;
+}
+/*--------footer-------*/
+footer div {
+  display: inline-block;
+  margin:40px;
+}
+footer {
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+  border-top: 3px solid #ca1916;
+}
